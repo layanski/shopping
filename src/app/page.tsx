@@ -6,9 +6,7 @@ import ServicesForStudents from "@/components/ServicesForStudents";
 import ServicesNearYou from "@/components/ServicesNearYou";
 import StudentsDeals from "@/components/StudentsDeals";
 
-
 export default function Home() {
-
   return (
     <main>
       <Hero />
@@ -17,7 +15,7 @@ export default function Home() {
       <NearYou />
       <ServicesNearYou />
       <StudentsDeals />
-      <ServicesForStudents/>
+      <ServicesForStudents />
     </main>
   );
 }
